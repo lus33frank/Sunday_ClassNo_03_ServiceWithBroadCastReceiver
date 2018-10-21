@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tw.com.frankchang.houli.sunday_classno_03_servicewithbroadcastreceiver.MainActivity"
+    android:orientation="vertical"
+    android:padding="@dimen/xml_padding">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Service"
+        android:textSize="@dimen/xml_textSize"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom"
+        android:onClick="startOnClick"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Service"
+        android:textSize="@dimen/xml_textSize"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom"
+        android:onClick="stopOnClick"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Service With BroadcastReceive System"
+        android:textSize="@dimen/xml_textSize"
+        android:textColor="@color/blue"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom"/>
+</LinearLayout>
